@@ -22,7 +22,7 @@ const PresentationSection = () => {
             Danyhover Bruzual
           </h1>
           <p
-            className="text-slate-300 text-sm sm:text-lg  max-w-xl rounded-2xl"
+            className="text-slate-300 text-sm sm:text-lg  max-w-xl rounded-2xl sm:text-left xs:text-center"
             data-aos="fade-left"
             data-aos-duration="600"
             data-aos-easing="ease-in-sine"
