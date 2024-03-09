@@ -24,7 +24,7 @@ function App() {
           <PresentationSection />
           <Separator />
           <ExperienceSection />
-          <ProjectsSection />
+          {/* <ProjectsSection /> */}
           <SocialSection />
           <ContactSection />
         </main>

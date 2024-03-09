@@ -1,6 +1,9 @@
 import { CVicon, RadarIcon } from "@/components/core/Icons";
+import useDownload from "@/hooks/useDownload";
 
 const PresentationSection = () => {
+  const { handleDownload } = useDownload();
+
   return (
     <section className="flex flex-col sm:flex-row items-center gap-5">
       <div
@@ -41,12 +44,20 @@ const PresentationSection = () => {
               Looking for job
             </span>
           </div>
-          <button className="flex items-center text-sm gap-3 bg-amber-300/95 hover:bg-opacity-90 text-neutral-800 py-2 px-4 rounded-lg font-semibold">
+         {/*  <button
+            className="flex items-center text-sm gap-3 bg-amber-300/95 hover:bg-opacity-90 text-neutral-800 py-2 px-4 rounded-lg font-semibold"
+            onClick={() =>
+              handleDownload({
+                url: "https://darkie-portfolio.vercel.app/yo%20pixiv.png",
+                fileName: "resume.png",
+              })
+            }
+          >
             <div className="text-xl sm:text-lg z-auto">
               <CVicon />
             </div>
             Resume
-          </button>
+          </button> */}
         </div>
       </div>
     </section>
