@@ -8,9 +8,10 @@ const ContactSection = () => {
       <div className="flex gap-2">
         <input
           type="text"
-          disabled=""
+          readOnly={true}
           className="bg-white/5 w-full py-1.5 px-3 rounded-lg grid place-items-center text-slate-300"
-          value="dakuri.digiwork@gmail.com"
+          defaultValue="dakuri.digiwork@gmail.com"
+          aria-label="email address"
         />
         <div className="flex gap-2">
           <div className="relative group/tooltip">
@@ -18,6 +19,7 @@ const ContactSection = () => {
               href="mailto:dakuri.digiwork@gmail.com"
               target="_blank"
               rel="noreferrer"
+              aria-label="send email"
               className="flex bg-amber-300/95 hover:bg-opacity-95 text-neutral-800 py-2.5 px-4 rounded-lg"
             >
               <div className="text-lg">
@@ -38,7 +40,7 @@ const ContactSection = () => {
             </span>
           </div>
           <div className="relative group/tooltip">
-            <button className="flex bg-amber-300/95 hover:bg-opacity-95 text-neutral-800 py-2.5 px-4 rounded-lg">
+            <button className="flex bg-amber-300/95 hover:bg-opacity-95 text-neutral-800 py-2.5 px-4 rounded-lg" aria-label="copy email">
               <div className="text-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

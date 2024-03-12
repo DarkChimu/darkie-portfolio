@@ -13,7 +13,7 @@ const PresentationSection = () => {
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
       >
-        <img src="/yo pixiv.png" alt="yo" width={"100%"} height={"100%"} />
+        <img src="/yo pixiv.webp" alt="yo" width={"100%"} height={"100%"} />
       </div>
       <div className="flex flex-col items-center sm:items-start gap-3">
         <div className="flex flex-col items-left gap-2">
