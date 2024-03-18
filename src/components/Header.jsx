@@ -7,10 +7,10 @@ const Header = () => {
         {
           <button className="py-4 px-2 sm:py-5 flex items-center gap-4 outline-none" aria-label="theme mode">
             <div className="text-2xl dark:hidden text-slate-100">
-              <SunIcon />
+              {/* <SunIcon /> */}
             </div>
             <div className="text-2xl hidden dark:block text-slate-100">
-              <MoonIcon />
+              {/* <MoonIcon /> */}
             </div>
           </button>
         }
