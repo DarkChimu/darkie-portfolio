@@ -44,20 +44,20 @@ const PresentationSection = () => {
               Looking for job
             </span>
           </div>
-         {/*  <button
+          <button
             className="flex items-center text-sm gap-3 bg-amber-300/95 hover:bg-opacity-90 text-neutral-800 py-2 px-4 rounded-lg font-semibold"
             onClick={() =>
               handleDownload({
-                url: "https://darkie-portfolio.vercel.app/yo%20pixiv.png",
-                fileName: "resume.png",
+                url: "https://darkie-portfolio.vercel.app/Danyhover_Resume.pdf",
+                fileName: "Danyhover_Bruzual_Resume.pdf",
               })
             }
           >
             <div className="text-xl sm:text-lg z-auto">
               <CVicon />
             </div>
-            Resume
-          </button> */}
+            Currículum
+          </button>
         </div>
       </div>
     </section>

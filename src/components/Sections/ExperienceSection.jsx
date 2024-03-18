@@ -24,7 +24,7 @@ const ExperienceSection = () => {
           "Desarrollo de un e-Learning Platform.",
           "Integración de pasarelas de pago como ApplePay y Gpay.",
           "Integración de Ads Monetization con Appodeal.",
-          "Code review y deploy.",
+          "Code review y deploy con GitLab CI/CD.",
         ]}
       />
 
@@ -36,7 +36,7 @@ const ExperienceSection = () => {
         herramientas para ONG's y donantes, trabajando en
         conjunto con el equipo Afrus Impact Technologies."
         responsabilites={[
-          "Backoffice desarrollado en NuxtJS + AdonisJS.",
+          "Backoffice desarrollado en NextJS + ExpressJS.",
           "Desarrollo de logs del sistema.",
           "Implementación de pasarela de pagos a nivel de frontend tales como Paypal, Stripe, Bakery, Pagar.me, Getnet, UNICEF Colombia.",
           "Desarrollo de sistema de exportación de datos a excel y csv.",
@@ -44,6 +44,7 @@ const ExperienceSection = () => {
           "Sistema de Scoring que puntúa a los usuarios basado en eventos.",
           "Envío de correos automatizado implementado con Mailtrap.",
           "Integración de Servicios AWS, S3 y Firebase.",
+          "Establecer el entorno de desarrollo compatible con Docker.",
         ]}
       />
 
