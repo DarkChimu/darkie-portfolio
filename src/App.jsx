@@ -10,6 +10,7 @@ import SocialSection from "@/components/Sections/SocialSection";
 import ContactSection from "@/components/Sections/ContactSection";
 import Separator from "@/components/core/Separator";
 import ProjectsSection from "@/components/Sections/ProjectsSection";
+import Container from "./components/Container/Container";
 
 function App() {
   useEffect(() => {
@@ -18,17 +19,15 @@ function App() {
 
   return (
     <>
-      <Header />
-      <div className="mx-auto max-w-3xl px-5 mb-5 flex flex-col gap-10">
-        <main className="flex flex-col gap-16">
-          <PresentationSection />
-          <Separator />
-          <ExperienceSection />
-          {/* <ProjectsSection /> */}
-          <SocialSection />
-          <ContactSection />
-        </main>
-      </div>
+      {/* <Header /> */}
+      <Container>
+        <PresentationSection />
+        <Separator />
+        <ExperienceSection />
+        <ProjectsSection />
+        <SocialSection />
+        <ContactSection />
+      </Container>
     </>
   );
 }

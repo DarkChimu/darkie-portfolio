@@ -49,9 +49,25 @@ const ExperienceSection = () => {
       />
 
       <Experience
-        JobName="Coach de Equipo"
-        startDate="Feb 2019"
+        JobName="Desarrollador FullStack Freelance en Fiverr."
+        startDate="Feb 2017"
         endDate="Oct 2020"
+        description="Como freelance he desarrollado exitosos proyectos para mis clientes."
+        responsabilites={[
+          "Definir estructura base de proyectos (Frontend y Backend).",
+          "Analizar y estimar el desarrollo de proyecto evaluando el Diseño creado en formatos como Figma, Adobe XD, Sketch, PSD, Illustration, JPG, PNG.",
+          "Desarrollo Frontend en HTML / CSS / SASS / JQuery / React y Vue.",
+          "Desarrollo de Aplicaciones Móviles React Native e Ionic.",
+          "Desarrollo Backend en Node / Express / NestJS.",
+          "Modelado de Bases de Datos relacionales SQL y Colecciones NoSQL con tecnologías como Postgres y MongoDB.",
+          "Integración de contenedores Docker y despliegue en VPS Services / Cloudflare / Firebase Hosting.",
+        ]}
+      />
+
+      <Experience
+        JobName="Coach de Equipo"
+        startDate="Feb 2015"
+        endDate="Oct 2017"
         responsabilites={[
           "Instrucción presencial y online para la mesa de excelencia académica en la Universidad Nacional Experimental Rómulo Gallegos.",
         ]}
